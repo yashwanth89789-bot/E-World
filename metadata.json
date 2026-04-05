@@ -1,5 +1,5 @@
 {
-  "name": "E-world",
+  "name": "E-World",
   "description": "A real-time world news explorer using Google Search and Maps grounding to visualize global events on an interactive map.",
   "requestFramePermissions": ["geolocation"]
 }

@@ -25,7 +25,7 @@ export const LandingPage: React.FC<LandingPageProps> = ({ onEnter }) => {
         
         <div className="space-y-2">
           <h1 className="text-6xl font-display font-bold tracking-tighter text-white">
-            E-world
+            E-World
           </h1>
           <p className="text-xl text-slate-400 font-medium">
             Real-time global news, mapped.

@@ -70,7 +70,7 @@ export default function App() {
             <div className="p-2 bg-blue-600 rounded-lg shadow-lg shadow-blue-900/20">
               <Globe className="w-6 h-6 text-white" />
             </div>
-            <h1 className="text-xl font-display font-bold tracking-tight">E-world</h1>
+            <h1 className="text-xl font-display font-bold tracking-tight">E-World</h1>
           </div>
           <button 
             onClick={loadNews}
