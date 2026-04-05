@@ -62,10 +62,10 @@ export default function App() {
   }
 
   return (
-    <div className="flex h-screen w-screen overflow-hidden bg-slate-950 font-sans">
+    <div className="flex flex-col md:flex-row h-screen w-screen overflow-hidden bg-slate-950 font-sans">
       {/* Sidebar */}
-      <aside className="w-96 h-full glass-panel border-r border-slate-800 flex flex-col z-20">
-        <div className="p-6 border-b border-slate-800 flex items-center justify-between">
+      <aside className="w-full md:w-96 h-1/3 md:h-full glass-panel border-b md:border-b-0 md:border-r border-slate-800 flex flex-col z-20">
+        <div className="p-4 md:p-6 border-b border-slate-800 flex items-center justify-between">
           <div className="flex items-center gap-3">
             <div className="p-2 bg-blue-600 rounded-lg shadow-lg shadow-blue-900/20">
               <Globe className="w-6 h-6 text-white" />
